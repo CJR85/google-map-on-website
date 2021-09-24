@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #262626;
+}
+
+.mapBox {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  background: #fff;
+}
